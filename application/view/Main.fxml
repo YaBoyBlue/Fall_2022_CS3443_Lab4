@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="500.0" maxWidth="500.0" minHeight="500.0" minWidth="500.0" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <VBox alignment="CENTER" maxHeight="500.0" maxWidth="500.0" minHeight="500.0" minWidth="500.0" prefHeight="500.0" prefWidth="500.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Happy Halloween!" textAlignment="CENTER" wrappingWidth="300.0">
+               <VBox.margin>
+                  <Insets bottom="25.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="MV Boli" size="36.0" />
+               </font>
+            </Text>
+            <Button fx:id="trick" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handle" prefHeight="30.0" prefWidth="90.0" text="Trick?" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font name="MV Boli" size="18.0" />
+               </font>
+            </Button>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="... or ..." textAlignment="CENTER" wrappingWidth="300.0">
+               <font>
+                  <Font name="MV Boli" size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="treat" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handle" prefHeight="30.0" prefWidth="90.0" text="Treat?" textAlignment="CENTER">
+               <font>
+                  <Font name="MV Boli" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
